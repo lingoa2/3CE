@@ -28,7 +28,7 @@
     
 
     .mainEdition{position: relative; display: flex; background-color: #c4a994}
-    .mainEdition > div:first-of-type{width: 47.4%; background-color: #c4a994; padding-left: 2.6%; /* background: url(../image/Editionpg/25.jpg) no-repeat center / 100%; */ display: flex; /* padding-left: 5.98%; */ color: #fff; flex-direction: column; justify-content: center;}
+    .mainEdition > div:first-of-type{width: 47.4%;/*  background-color: #c4a994; */ padding-left: 2.6%; /* background: url(../image/Editionpg/25.jpg) no-repeat center / 100%; */ display: flex; /* padding-left: 5.98%; */ color: #fff; flex-direction: column; justify-content: center;}
     .mainEdition > div:first-of-type h2{margin-left: 50px; display: flex; font-size: 40px; font-weight: 400; margin-bottom: 25px;}
     .mainEdition > div:first-of-type p{margin-left: 50px; font-size: 18px; font-weight: 400;}
     .mainEdition > div:last-of-type{width: 50%; display: flex; flex-direction: column; justify-content: center;}

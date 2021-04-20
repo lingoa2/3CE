@@ -19,23 +19,22 @@ input[type='checkbox']{display: none;}
     .mainHeader nav ul{display: flex; justify-content: center;}
     .mainHeader nav ul li:not(:last-of-type){margin-right: 20px;}
     .mainHeader nav ul li a{font-size: 20px; font-weight: 400; color: #fff; transition-duration: 0.5s;}
-    .mainHeader > ul{position: absolute; right: 0; display: flex; justify-content: center; align-items: center;}
-    .mainHeader > ul > li:first-of-type{/* width: 19px; height: 19px; */ margin-right: 20px;}
-    .mainHeader > ul > li:first-of-type a{background: url(../image/Icon/search.png) no-repeat center / 100%; width: 19px; height: 19px; display: block; transition-duration: 0.5s;}
-    .mainHeader.on > ul > li:first-of-type a{background: url(../image/Icon/search_B.png) no-repeat center / 100%; transition: background 0.5s;}
-    .mainHeader > ul > li:nth-of-type(2){width: 20px; height: 30px; display: flex; align-items: center;}
-    .mainHeader > ul > li:nth-of-type(2) a{background: url(../image/Icon/left_W.png) no-repeat center / 100%; transform: rotate(-90deg); display: block; width: 20px; height: 30px; transition-duration: 0.5s;}
-    .mainHeader > ul > li:nth-of-type(2) a.add{transform: rotate(90deg); transition-duration: 0.5s;}
-    .mainHeader.on > ul > li:nth-of-type(2) a{background: url(../image/Icon/left_B.png) no-repeat center / 100%; transform: rotate(-90deg); transition-duration: 0.5s;}
-    .mainHeader.on > ul > li:nth-of-type(2) a.add{transform: rotate(90deg); transition-duration: 0.5s;}
-    /* .mainHeader > ul li:nth-of-type(n+3){display: none;} */
-    .mainHeader > ul > li a{font-size: 20px; font-weight: 400; color: #fff; transition-duration: 0.5s;}
+    .mainHeader > ul{position: absolute; right: 0; top: 38px; width: 86px; display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap;}
+    .mainHeader > ul li:first-of-type{/* width: 19px; height: 19px; */ margin-right: 20px;}
+    .mainHeader > ul li:first-of-type a{background: url(../image/Icon/search.png) no-repeat center / 100%; width: 19px; height: 19px; display: block; transition-duration: 0.5s;}
+    .mainHeader.on > ul li:first-of-type a{background: url(../image/Icon/search_B.png) no-repeat center / 100%; transition: background 0.5s;}
+    .mainHeader > ul li:nth-of-type(2){width: 20px; height: 30px; display: flex; align-items: center;}
+    .mainHeader > ul li:nth-of-type(2) a{background: url(../image/Icon/left_W.png) no-repeat center / 100%; transform: rotate(-90deg); display: block; width: 20px; height: 30px; transition-duration: 0.5s;}
+    .mainHeader > ul li:nth-of-type(2) a.add{transform: rotate(90deg); transition-duration: 0.5s;}
+    .mainHeader.on > ul li:nth-of-type(2) a{background: url(../image/Icon/left_B.png) no-repeat center / 100%; transform: rotate(-90deg); transition-duration: 0.5s;}
+    .mainHeader.on > ul li:nth-of-type(2) a.add{transform: rotate(90deg); transition-duration: 0.5s;}
+    .mainHeader > ul li:nth-of-type(n+3){flex-basis: 100%; height: 50px; display: none; align-items: center; background-color: rgba(130, 114, 99, 0.5);}
+    .mainHeader > ul li:nth-of-type(n+3):hover{background-color: rgba(239, 214, 192, 0.5);}
+    .mainHeader > ul li:nth-of-type(n+3) a{margin-left: 15px;}
+    .mainHeader.on > ul li:nth-of-type(n+3) a{color: #fff;}
+    .mainHeader > ul li:nth-of-type(n+3).add{display: flex;}
+    .mainHeader > ul li a{font-size: 20px; font-weight: 400; color: #fff; transition-duration: 0.5s;}
     .mainHeader.on ul > li a{color: #67594c; /* transition: color 0.5s; */}
-    .mainHeader > ul > ol{position: absolute; top: 30px; right: 0px; display: none; width: 86px; height: 100px;  background-color: rgba(130, 114, 99, 0.5);}
-    .mainHeader > ul > ol.add{display: block;}
-    .mainHeader > ul > ol li{width: 86px; height: 50px; display: flex; align-items: center;}
-    .mainHeader > ul > ol li:hover{background-color: rgba(239, 214, 192, 0.5);}
-    .mainHeader > ul > ol li a{padding-left: 15px; font-size: 20px; font-weight: 400; color: #fff;}
     /* mainHeader(인덱스,로그인 헤더) Fin */
 
 

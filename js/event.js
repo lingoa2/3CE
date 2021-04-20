@@ -176,12 +176,18 @@ function menuClick(){
 }
 
 
+// function mainHeader(){
+//   $('.headerTab').click(function(e){
+//     e.preventDefault();
+//     $('.tabMenu').toggleClass('add');
+//     $('.headerTab').children('a').toggleClass('add');
+//   })
+// }
+
 function mainHeader(){
   $('.headerTab').click(function(e){
     e.preventDefault();
     $('.tabMenu').toggleClass('add');
     $('.headerTab').children('a').toggleClass('add');
   })
-  
 }
-
