@@ -7,6 +7,8 @@ $(document).ready(function(){
     tabmenu();
     inputChoice();
     contentDel();
+    menuClick();
+    mainHeader();
 });
 
 
@@ -15,11 +17,18 @@ function sd01(){
     
     var swiper = new Swiper('.swiper-container.mainSlide', {
       slidesPerView: 'auto',
-      spaceBetween: 50,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
       },
+      breakpoints: {
+        321:{
+          spaceBetween: 25,
+        },
+        769: {
+          spaceBetween: 50,
+        }
+      }
     });
 };
 // index new, best 슬라이더
@@ -113,15 +122,15 @@ function numberCount(){
 
 
 function tabmenu(){
-  $('ol:first-of-type').show();   /* ol li:첫번째 (내용적힌곳) 보이게함*/
-  $('ul:first-of-type').addClass('productActive');   /* ul li:첫번째 (탭메뉴)에 class=productActive 부여 */
+  $('.inputSelector ol:first-of-type').show();   /* ol li:첫번째 (내용적힌곳) 보이게함*/
+  $('.inputSelector ul:first-of-type').addClass('productActive');   /* ul li:첫번째 (탭메뉴)에 class=productActive 부여 */
 
-  $('ul li').click(function(){   /* ul li를 클릭했을때 */
+  $('.inputSelector ul li').click(function(){   /* ul li를 클릭했을때 */
     index = $(this).index();  /*  index = 클릭한(li) 값을 담음 */
-    $('ul li').removeClass('productActive');   /* ul li:first에 부여했던 class 제거 */
+    $('.inputSelector ul li').removeClass('productActive');   /* ul li:first에 부여했던 class 제거 */
     $(this).addClass('productActive');   /* 클릭한 요소에 class부여 */
-    $('ol li').hide();     /* ol li:first 보이게 했던걸 안보이게 만듬 */
-    $('ol li').eq(index).show();   /* 변수에 담긴 값(n)만큼 ol li:nth(n)째를 보이게함 */ 
+    $('.inputSelector ol li').hide();     /* ol li:first 보이게 했던걸 안보이게 만듬 */
+    $('.inputSelector ol li').eq(index).show();   /* 변수에 담긴 값(n)만큼 ol li:nth(n)째를 보이게함 */ 
   })
 }
 // shop 상세페이지 하단 탭메뉴
@@ -141,6 +150,8 @@ function inputChoice(){
   })
 }
 
+
+
 function contentDel(){
   $('.delete').click(function(){  /* class=delete를 클릭했을때 */
     if($('.choice:checked')){   /* 만약 class=choice가 체크되었을때 */
@@ -149,3 +160,28 @@ function contentDel(){
     }
   })
 }
+
+
+
+function menuClick(){
+  
+  $('.menuBtn').click(function(e){
+    e.preventDefault();
+    $('.asideArea').addClass('on');
+  })
+  $('.removBtn').click(function(e){
+    e.preventDefault();
+    $('.asideArea').removeClass('on');
+  })
+}
+
+
+function mainHeader(){
+  $('.headerTab').click(function(e){
+    e.preventDefault();
+    $('.tabMenu').toggleClass('add');
+    $('.headerTab').children('a').toggleClass('add');
+  })
+  
+}
+
