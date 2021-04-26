@@ -148,12 +148,20 @@
     .productSection > div:nth-of-type(3) > div:last-of-type p{margin-bottom: 20px;}
     .productSection > div:nth-of-type(3) > p{font-size: 12px; font-weight: 400; line-height: 18px; color: #766a5e; margin-bottom: 50px;}
     /* .productSection > div:last-of-type > ul{display: flex;} */
-    .productSection > div:last-of-type > ul li{height: 50px;  /* width: 25%; height: 37px; border: 1px solid #514840; box-sizing: border-box;  */font-size: 20px; font-weight: 500; color: #67594c; display: flex; justify-content: space-between; align-items: center;}
-    .productSection > div:last-of-type > ul li::after{content: url(../image/Icon/left_B.png); transform: rotate(-90deg);}
+    /* --.productSection > div:last-of-type > ul li{height: 50px;  width: 25%; height: 37px; border: 1px solid #514840; box-sizing: border-box; font-size: 20px; font-weight: 500; color: #67594c; display: flex; justify-content: space-between; align-items: center;} */
+    /* --.productSection > div:last-of-type > ul li::after{content: url(../image/Icon/left_B.png); transform: rotate(-90deg);} */
     /* .productSection > div:last-of-type > ul li.productActive{background-color: #efd6c0;} */
     /* .productSection > div:last-of-type > ul li:not(:last-of-type){border-right: none;} */
-    .productSection > div:last-of-type > ol li{list-style: none; display: none; padding: 40px 0; font-size: 12px; font-weight: 400; color: #766a5e; line-height: 18px; text-align: center; clear: both; border-bottom: 1px solid rgba(81, 72, 64, 0.5);}
+    /* --.productSection > div:last-of-type > ol li{list-style: none; display: none; padding: 40px 0; font-size: 12px; font-weight: 400; color: #766a5e; line-height: 18px; text-align: center; clear: both; border-bottom: 1px solid rgba(81, 72, 64, 0.5);} */
     /* .productSection > div:last-of-type > ol li.productActive{display: block;} */
+    /* --.productSection > div:last-of-type > ol li p:not(:last-of-type){margin-bottom: 25px;} */
+
+    .productSection > div:last-of-type > ul{display: flex;}
+    .productSection > div:last-of-type > ul li{ width: 25%; height: 42px; border: 1px solid #514840; box-sizing: border-box; font-size: 16px; font-weight: 500; color: #67594c; display: flex; justify-content: center; align-items: center;}
+    .productSection > div:last-of-type > ul li.productActive{background-color: #efd6c0;}
+    .productSection > div:last-of-type > ul li:not(:last-of-type){border-right: none;}
+    .productSection > div:last-of-type > ol li{list-style: none; display: none; padding: 40px 0; font-size: 14px; font-weight: 400; color: #766a5e; line-height: 20px; text-align: center; clear: both; border-bottom: 1px solid rgba(81, 72, 64, 0.5);}
+    .productSection > div:last-of-type > ol li.productActive{display: block;}
     .productSection > div:last-of-type > ol li p:not(:last-of-type){margin-bottom: 25px;}
     /* productSection(상품상세페이지) Fin */
 
@@ -449,6 +457,13 @@
     .productSection > div:last-of-type > ol li{list-style: none; display: none; padding: 40px 0; font-size: 12px; font-weight: 400; color: #766a5e; line-height: 18px; text-align: center; clear: both; border-bottom: 1px solid rgba(81, 72, 64, 0.5);}
     .productSection > div:last-of-type > ol li.productActive{display: block;}
     .productSection > div:last-of-type > ol li p:not(:last-of-type){margin-bottom: 25px;}
+    /* .productSection > div:last-of-type > ul{display: flex; position: relative;}
+    .productSection > div:last-of-type > ul li{  color: #67594c; }
+    .productSection > div:last-of-type > ul li > strong{width: 25%; height: 37px; border: 1px solid #514840; box-sizing: border-box; font-size: 14px; font-weight: 500; display: flex; justify-content: center; align-items: center;}
+    .productSection > div:last-of-type > ul li > strong.productActive{background-color: #efd6c0;} */
+    /* .productSection > div:last-of-type > ul li:not(:last-of-type){border-right: none;} */
+    /* .productSection > div:last-of-type > ul li > div{display: none; position: absolute; top: 77px; left: 0; width: 100%;}
+    .productSection > div:last-of-type > ul li > div.productActive{display: block;} */
     /* productSection(상품상세페이지) Fin */
 
 
