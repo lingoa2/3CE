@@ -170,7 +170,7 @@ input[type='checkbox']{display: none;}
     footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add:checked~address{height: 100px;}
     footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add~label{transform: rotate(0deg); transition-duration: 0.3s;}
     footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add:checked~label{transform: rotate(-45deg); transition-duration: 0.3s;}
-    footer > div:first-of-type div:nth-of-type(4) address{font-style: normal;}
+    footer > div:first-of-type div:nth-of-type(4) address{font-style: normal; /* display: block; */ width: 100%;}
     footer > div:first-of-type div:nth-of-type(4) address span:first-of-type{display: block; margin: 20px 0 15px; }
     footer > div:first-of-type div:nth-of-type(4) address span:first-of-type a{font-size: 20px; color: #67594c; font-weight: 400;}
     footer > div:first-of-type div:nth-of-type(4) address span:not(:first-of-type){font-size: 14px; color: #67594c; font-weight: 400;}
@@ -180,6 +180,7 @@ input[type='checkbox']{display: none;}
     footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01:checked~ul{height: 110px;}
     footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01~label{transform: rotate(0deg); transition-duration: 0.3s;}
     footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01:checked~label{transform: rotate(-45deg); transition-duration: 0.3s;}
+    footer > div:first-of-type div:nth-of-type(5) ul{/* display: block; */ width: 100%;}
     footer > div:first-of-type div:nth-of-type(5) ul li{color: #67594c; font-size: 12px; }
     footer > div:first-of-type div:nth-of-type(5) ul li:first-of-type{margin-bottom: 15px;}
     footer > div:first-of-type div:nth-of-type(5) ul li:first-of-type a{font-size: 14px; font-weight: 500; color: #67594c;}
