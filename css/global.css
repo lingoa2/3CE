@@ -199,7 +199,7 @@ input[type='checkbox']{display: none;}
     footer > div:last-of-type address > a:first-of-type{margin-left: 5px;}
     footer > div:last-of-type address > *:not(:first-child)::before{content: '|'; margin: 0 5px; color: #67594c; font-size: 12px;}
     footer > div:last-of-type address > *:nth-child(3)::before, footer > div:last-of-type address > *:nth-child(4)::before, footer > div:last-of-type address > *:nth-child(5)::before, footer > div:last-of-type address > *:nth-child(7)::before, footer > div:last-of-type address > *:nth-child(9)::before, footer > div:last-of-type address > *:nth-child(10)::before{display: none;}
-    footer > div:last-of-type > ul{margin-bottom: 25px;  font-size: 11px; font-weight: 400; color: #67594c; display: flex; justify-content: flex-end; flex-wrap: wrap;}
+    footer > div:last-of-type > ul{margin-bottom: 25px; width: 320px;  font-size: 11px; font-weight: 400; color: #67594c; display: flex; justify-content: flex-end; flex-wrap: wrap;}
     footer > div:last-of-type > ul > *:not(:nth-of-type(-n+2))::before{content: '|'; margin: 0 5px; color: #67594c; font-size: 11px;}
     footer > div:last-of-type > ul li{line-height: 16px;}
     footer > div:last-of-type > ul li:first-of-type{width: 100%;}

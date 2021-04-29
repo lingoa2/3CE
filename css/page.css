@@ -121,9 +121,9 @@
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) > div span{box-sizing: border-box; display: block; cursor: pointer; width: 25px; height: 25px; background-repeat: no-repeat; background-position: center; background-size: 50%; border: 1px solid #d4d8d9;}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) > div span:first-of-type{margin-right: 4px; float: left; background-image: url(../image/Icon/plus_G.png);}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) > div span:last-of-type{float: left; background-image: url(../image/Icon/remove_G.png);}
-    .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input[type='button']{position: absolute; right: 0; top: 570px; width: 15px; height: 15px; border: none; border-right: none; background: url(../image/Icon/btn_price_delete.gif) no-repeat center; text-indent: -9999px;}
+    .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input[type='button']{display: none; position: absolute; right: 0; top: 570px; width: 15px; height: 15px; border: none; border-right: none; background: url(../image/Icon/btn_price_delete.gif) no-repeat center; text-indent: -9999px;}
     .productSection > div:first-of-type form div.hidden ul li:last-of-type{height: 75px; justify-content: flex-end;}
-    .productSection > div:first-of-type form div.hidden ul li:last-of-type p{font-size: 14px; font-weight: 500; color: #67594c; margin-right: 25px;}
+    .productSection > div:first-of-type form div.hidden ul li:last-of-type p{font-size: 14px; font-weight: 500; color: #67594c; /* margin-right: 25px; */}
     .productSection > div:first-of-type form div.hidden ul li:last-of-type p::after{content: '원';}
     .productSection > div:first-of-type form div.hidden > div{display: flex; justify-content: space-between; margin: 20px 0; padding: 0 4.12%; font-weight: 700; font-size: 14px;}
     .productSection > div:first-of-type form div.hidden > div > strong{flex-grow: 1;}
@@ -444,9 +444,9 @@
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) > div span{box-sizing: border-box; display: block; cursor: pointer; width: 40px; height: 40px; background-repeat: no-repeat; background-position: center; background-size: 50%; border: 1px solid #d4d8d9;}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) > div span:first-of-type{margin-right: 4px; float: left; background-image: url(../image/Icon/plus_G.png);}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) > div span:last-of-type{float: left; background-image: url(../image/Icon/remove_G.png);}
-    .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input[type='button']{position: absolute; right: 50px; top: 1093px; width: 15px; height: 15px; border: none; border-right: none; background: url(../image/Icon/btn_price_delete.gif) no-repeat center; text-indent: -9999px;}
+    .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input[type='button']{display: none; position: absolute; right: 50px; top: 1093px; width: 15px; height: 15px; border: none; border-right: none; background: url(../image/Icon/btn_price_delete.gif) no-repeat center; text-indent: -9999px;}
     .productSection > div:first-of-type form div.hidden ul li:last-of-type{height: 142px; justify-self: self-end;}
-    .productSection > div:first-of-type form div.hidden ul li:last-of-type p{font-size: 20px; font-weight: 500; color: #67594c; margin-right: 35px;}
+    .productSection > div:first-of-type form div.hidden ul li:last-of-type p{font-size: 20px; font-weight: 500; color: #67594c; /* margin-right: 35px; */}
     .productSection > div:first-of-type form div.hidden ul li:last-of-type p::after{content: '원';}
     .productSection > div:first-of-type form div.hidden > div{display: flex; justify-content: space-between; margin: 40px 0; padding: 0 4.12%; font-weight: 700; font-size: 20px;}
     .productSection > div:first-of-type form div.hidden > div > strong{flex-grow: 1;}
