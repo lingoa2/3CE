@@ -8,7 +8,7 @@
 
     .mainNew{position: relative; display: flex;}
     .mainNew > div{width: 50%;}
-    .mainNew > div:first-of-type{display: flex; /* margin-left: 5.98%; */ margin: 75px 0 0 5.98%; /* padding-left: 20px; */ color: #67594c; flex-direction: column; /* justify-content: center; */}
+    .mainNew > div:first-of-type{display: flex; margin: 75px 0 0 5.98%; color: #67594c; flex-direction: column;}
     .mainNew > div:first-of-type h2{display: flex; font-size: 30px; font-weight: 400; margin-bottom: 10px;}
     .mainNew > div:first-of-type p{font-size: 12px; font-weight: 400;}
     .mainNew > div:last-of-type{display: flex; align-items: center; background-color: #efd6c0;}
@@ -20,7 +20,7 @@
 
     .mainBest{position: relative; display: flex;}
     .mainBest > div{width: 50%;}
-    .mainBest > div:first-of-type{display: flex; /* margin-left: 5.98%; padding-left: 2.6%; */ margin: 75px 0 0 5.98%; color: #67594c; flex-direction: column; /* justify-content: center; */}
+    .mainBest > div:first-of-type{display: flex; margin: 75px 0 0 5.98%; color: #67594c; flex-direction: column;}
     .mainBest > div:first-of-type h2{display: flex; font-size: 30px; font-weight: 400; margin-bottom: 10px;}
     .mainBest > div:first-of-type p{font-size: 12px; font-weight: 400;}
     .mainBest > div:last-of-type{display: flex; align-items: center; background-color: #d99f9d;}
@@ -28,13 +28,13 @@
     
 
     .mainEdition{position: relative; display: flex; background-color: #c4a994}
-    .mainEdition > div:first-of-type{width: 47.4%; margin: 75px 0 0 20px;/*  background-color: #c4a994; */ /* padding-left: 2.6%; */ /* margin: 75px 0 0 5.98%; */ /* background: url(../image/Editionpg/25.jpg) no-repeat center / 100%; */ display: flex; /* padding-left: 5.98%; */ color: #fff; flex-direction: column; /* justify-content: center; */}
+    .mainEdition > div:first-of-type{width: 47.4%; margin: 75px 0 0 20px; display: flex; color: #fff; flex-direction: column;}
     .mainEdition > div:first-of-type h2{ display: flex; font-size: 30px; font-weight: 400; margin-bottom: 10px;}
-    .mainEdition > div:first-of-type p{/* margin-left: 50px; */ font-size: 12px; font-weight: 400;}
+    .mainEdition > div:first-of-type p{font-size: 12px; font-weight: 400;}
     .mainEdition > div:last-of-type{width: 50%; display: flex; flex-direction: column; justify-content: center; margin-top: 50px;}
-    .mainEdition > div:last-of-type a{width: 175%; /* height: 245px; */ /* margin: 8% 11.66% 25px; */ margin: 0 0 15px -90%;}
+    .mainEdition > div:last-of-type a{width: 175%; margin: 0 0 15px -90%;}
     .mainEdition > div:last-of-type a img{width: 100%;}
-    .mainEdition > div:last-of-type p{/* margin-left: 11.66%; */ text-align: right; /* margin-right: 20px; */}
+    .mainEdition > div:last-of-type p{text-align: right;}
     .mainEdition > div:last-of-type p:first-of-type{font-size: 20px; font-weight: 400; color: #67594c; margin: 0 20px 10px -20px; /* margin-bottom: 15px; */}
     .mainEdition > div:last-of-type p:last-of-type{font-size: 14px; font-weight: 400; color: #fff2e2; margin-right: 20px;}
     /* Edition(인덱스메인) Fin */
@@ -51,7 +51,6 @@
     .shopSlide > .shopPagination.swiper-pagination-fraction, .shopPagination.swiper-pagination-custom, .shopSlide.swiper-container-horizontal > .shopPagination.swiper-pagination-bullets{left: 0; bottom: 10px;}
     .shopSlide.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 8px 0 0;}
     .shopSlide.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:last-of-type{margin: 0;}
-    /* .shopPage img{width: 100%;} */
     .shopPage{background-size: cover; background-repeat: no-repeat; background-position: center; height: 429px;}
     .shopPage:first-of-type{background-image: url(../image/slider/moblie/1.jpg);}
     .shopPage:nth-of-type(2){background-image: url(../image/slider/moblie/2.jpg);}
@@ -61,9 +60,7 @@
 
 
     .shopSection > ul{display: flex; flex-flow: row wrap; margin-bottom: 30px;}
-    /* .shopSection > .shopProduct{padding-top: 50px;} */
     .shopSection > ul li{ flex: 1 0 48.21%;}
-    /* .shopSection > ul li:not(:nth-of-type(n+10)){margin-bottom: 30px;} */
     .shopSection > ul li:not(:nth-of-type(2n)){margin-right: 3.57%;}
     .shopSection > ul li figure > a{display: block; margin-bottom: 10px;}
     .shopSection > ul li figure a img{width: 100%;}
@@ -76,7 +73,7 @@
     .shopSection > ul li figure figcaption > div s + p::before{margin: 0 5px; content: '→';}
     .shopSection > ul li figure figcaption > div p::after{content: '원';}
     .shopSection > ul li figure figcaption > div span{color: #fa7c78;}
-    .shopSection > ul li figure figcaption > p{display: none; /* font-size: 14px; font-weight: 400; color: #a2968b; line-height: 22px; */ }
+    .shopSection > ul li figure figcaption > p{display: none;}
     /* shopSection(샵,에디션 카테고리) Fin */
 
 
@@ -87,32 +84,26 @@
     /* editionMenu(에디션카테고리 타이틀하단메뉴) Fin */
 
 
-    /* .productArea{padding-right: 20px;} */
     .productArea > div{display: flex;}
 
-    .productSection > div:first-of-type{/* display: flex; */ margin-bottom: 30px;}
-    .productSection > div:first-of-type > div{width: 100%; /* height: 546px; */ margin-bottom: 15px;}
+    .productSection > div:first-of-type{margin-bottom: 30px;}
+    .productSection > div:first-of-type > div{width: 100%; margin-bottom: 15px;}
     .productSection > div:first-of-type > div img{width: 100%; height: 100%;}
-    .productSection > div:first-of-type form > h2{/* margin-left: 4.12%; */ font-size: 16px; font-weight: 600; color: #766a5e; margin-bottom: 20px;}
+    .productSection > div:first-of-type form > h2{font-size: 16px; font-weight: 600; color: #766a5e; margin-bottom: 20px;}
     .productSection > div:first-of-type form > h2 span{display: block; padding-top: 5px;}
     .productSection > div:first-of-type form{width: 100%; }
-    .productSection > div:first-of-type form > ul li{display: flex; justify-content: space-between; /* margin: 0 4.12%; */ margin-bottom: 20px;}
+    .productSection > div:first-of-type form > ul li{display: flex; justify-content: space-between; margin-bottom: 20px;}
     .productSection > div:first-of-type form > ul li > *:first-child{font-size: 14px; font-weight: 500; color: #766a5e;}
     .productSection > div:first-of-type form > ul li:nth-of-type(-n+2) > *:nth-child(2){font-size: 14px; font-weight: 400; color: #766a5e;}
     .productSection > div:first-of-type form > ul li:first-of-type div{display: flex;}
     .productSection > div:first-of-type form > ul li:first-of-type div > *::after{content: '원';}
     .productSection > div:first-of-type form > ul li:first-of-type div > p::before{content: '→'; margin: 0 5px;}
     .productSection > div:first-of-type form > ul li:nth-of-type(n+3) select{font-size: 14px; font-weight: 500; color: #766a5e; width: 170px; height: 20px; border:0px solid transparent; appearance: none; background: url(../image/Icon/bottom_B.png) no-repeat center right; }
-    /* .productSection > div:first-of-type form > ul li:not(:last-of-type){margin-bottom: 20px;} */
-    /* .productSection > div:first-of-type form > ul li:last-of-type{margin-bottom: 50px;} */
-    .productSection > div:first-of-type form div.hidden{display: none; /*  flex-direction: column; flex-wrap: wrap; */}
+    .productSection > div:first-of-type form div.hidden{display: none;}
     .productSection > div:first-of-type form div.hidden.selectOn{display: flex; flex-wrap: wrap; flex-direction: column;}
-    .productSection > div:first-of-type form div.hidden ul{padding: 15px 0; display: flex; align-content: space-between; 
-        border-width: 1px 0 1px 0; border-color: rgba(81, 72, 64, 0.4); border-style: solid;
-        flex-direction: column; flex-wrap: wrap; height: 75px;
-    }
+    .productSection > div:first-of-type form div.hidden ul{padding: 15px 0; display: flex; align-content: space-between; border-width: 1px 0 1px 0; border-color: rgba(81, 72, 64, 0.4); border-style: solid; flex-direction: column; flex-wrap: wrap; height: 75px;}
     .productSection > div:first-of-type form div.hidden ul li{display: flex; align-items: center;}
-    .productSection > div:first-of-type form div.hidden ul li:first-of-type > p{/* font-size: 12px; */ font-size: 14px; font-weight: 400; color: #67594c; margin-bottom: 15px;}
+    .productSection > div:first-of-type form div.hidden ul li:first-of-type > p{font-size: 14px; font-weight: 400; color: #67594c; margin-bottom: 15px;}
     .productSection > div:first-of-type form div.hidden ul li:first-of-type span{display: block; font-weight: 500; margin-top: 5px;}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input{appearance: none; box-sizing: border-box;}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input[type='number']{margin-right: 6px; padding-left: 10px; font-size: 12px; font-weight: 400; color: #766a5e; width: 40px; height: 25px; border: 1px solid #d4d8d9; background-color: #fff;}
@@ -123,14 +114,14 @@
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) > div span:last-of-type{float: left; background-image: url(../image/Icon/remove_G.png);}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input[type='button']{display: none; position: absolute; right: 0; top: 570px; width: 15px; height: 15px; border: none; border-right: none; background: url(../image/Icon/btn_price_delete.gif) no-repeat center; text-indent: -9999px;}
     .productSection > div:first-of-type form div.hidden ul li:last-of-type{height: 75px; justify-content: flex-end;}
-    .productSection > div:first-of-type form div.hidden ul li:last-of-type p{font-size: 14px; font-weight: 500; color: #67594c; /* margin-right: 25px; */}
+    .productSection > div:first-of-type form div.hidden ul li:last-of-type p{font-size: 14px; font-weight: 500; color: #67594c;}
     .productSection > div:first-of-type form div.hidden ul li:last-of-type p::after{content: '원';}
     .productSection > div:first-of-type form div.hidden > div{display: flex; justify-content: space-between; margin: 20px 0; padding: 0 4.12%; font-weight: 700; font-size: 14px;}
     .productSection > div:first-of-type form div.hidden > div > strong{flex-grow: 1;}
     .productSection > div:first-of-type form div.hidden > div > *:not(:nth-child(2)){ color: #514840;}
-    .productSection > div:first-of-type form div.hidden > div > p{color: #fa7c78; /* margin-right: 3px; */ font-size: 16px;}
+    .productSection > div:first-of-type form div.hidden > div > p{color: #fa7c78; font-size: 16px;}
     .productSection > div:first-of-type form div.hidden > div > p::after{content: '원';}
-    .productSection > div:first-of-type form div.hidden > div > span{/* font-size: 20px; */ font-weight: 700;}
+    .productSection > div:first-of-type form div.hidden > div > span{font-weight: 700;}
     .productSection > div:first-of-type form div.hidden > div > span::before{content: '(';}
     .productSection > div:first-of-type form div.hidden > div > span::after{content: '개)';}
     .productSection > div:first-of-type form div:last-of-type input{height: 40px; box-sizing: border-box; font-weight: 500; color: #514840;}
@@ -138,17 +129,13 @@
     .productSection > div:first-of-type form div:last-of-type > ul{display: flex; justify-content: space-between;}
     .productSection > div:first-of-type form div:last-of-type > ul li{width: 48.21%;}
     .productSection > div:first-of-type form div:last-of-type > ul li input{font-size: 13px; width: 100%; border: 1px solid #514840; background-color: #fff;}
-    /* .productSection > div:nth-of-type(2){width: 76.92%; margin: 0 auto 120px;} */
     .productSection > div:nth-of-type(2){margin-bottom: 30px;}
     .productSection > div:nth-of-type(2) img{width: 100%;}
-    /* .productSection > div:nth-of-type(n+3){width: 69.23%; margin: 0 auto 120px;} */
-    .productSection > div:nth-of-type(3){margin-bottom: 30px; /* text-align: center; */}
+    .productSection > div:nth-of-type(3){margin-bottom: 30px;}
     .productSection > div:nth-of-type(3) > div h3{ margin-bottom: 15px; font-size: 16px; font-weight: 500; color: #67594c;}
     .productSection > div:nth-of-type(3) > div p{font-size: 12px; font-weight: 400; line-height: 16px; color: #766a5e; }
     .productSection > div:nth-of-type(3) > div:first-of-type div p span::before{content: ':'; padding-right: 3px;}
     .productSection > div:nth-of-type(3) > div:not(:last-of-type){margin-bottom: 30px;}
-    /* .productSection > div:nth-of-type(3) > div:nth-of-type(2){margin-bottom: 15px;} */
-    /* .productSection > div:nth-of-type(3) > div:nth-of-type(2) label{display: none;} */
     .productSection > div:nth-of-type(3) > div:nth-of-type(2) h3{float: left; width: 90%;}
     .productSection > div:nth-of-type(3) > div:nth-of-type(2)::after{content: ''; display: block; visibility: hidden; clear: both;}
     .productSection > div:nth-of-type(3) > div:nth-of-type(2) .toggleIcon{float: right; font-size: 16px; transform: rotate(-90deg); transition: transform 0.5s;}
@@ -158,31 +145,20 @@
     .productSection > div:nth-of-type(3) > div:nth-of-type(2) div{clear: both;}
     .productSection > div:nth-of-type(3) > div:nth-of-type(2) span{display: block; margin-bottom: 5px;}
     .productSection > div:nth-of-type(3) > div:nth-of-type(2) > div:not(:last-of-type){margin-bottom: 10px;}
-    /* .productSection > div:nth-of-type(3) > div:last-of-type{margin-bottom: 50px; width: 66.66%; margin: 0 auto 20px; border-bottom: 1px solid rgba(81, 72, 64, 0.5);} */
     .productSection > div:nth-of-type(3) > div:last-of-type p{margin-bottom: 20px;}
     .productSection > div:nth-of-type(3) > p{font-size: 12px; font-weight: 400; line-height: 18px; color: #766a5e; margin-bottom: 50px;}
-    /* .productSection > div:last-of-type > ul{display: flex;} */
-    /* --.productSection > div:last-of-type > ul li{height: 50px;  width: 25%; height: 37px; border: 1px solid #514840; box-sizing: border-box; font-size: 20px; font-weight: 500; color: #67594c; display: flex; justify-content: space-between; align-items: center;} */
-    /* --.productSection > div:last-of-type > ul li::after{content: url(../image/Icon/left_B.png); transform: rotate(-90deg);} */
-    /* .productSection > div:last-of-type > ul li.productActive{background-color: #efd6c0;} */
-    /* .productSection > div:last-of-type > ul li:not(:last-of-type){border-right: none;} */
-    /* --.productSection > div:last-of-type > ol li{list-style: none; display: none; padding: 40px 0; font-size: 12px; font-weight: 400; color: #766a5e; line-height: 18px; text-align: center; clear: both; border-bottom: 1px solid rgba(81, 72, 64, 0.5);} */
-    /* .productSection > div:last-of-type > ol li.productActive{display: block;} */
-    /* --.productSection > div:last-of-type > ol li p:not(:last-of-type){margin-bottom: 25px;} */
-
     .productSection > div:last-of-type > ul{display: flex;}
-    .productSection > div:last-of-type > ul li{line-height: 18px; /* word-break: keep-all; */ text-align: center; width: 25%; height: 50px; border: 1px solid #514840; box-sizing: border-box; font-size: 14px; font-weight: 500; color: #67594c; display: flex; justify-content: center; align-items: center;}
+    .productSection > div:last-of-type > ul li{line-height: 18px; text-align: center; width: 25%; height: 50px; border: 1px solid #514840; box-sizing: border-box; font-size: 14px; font-weight: 500; color: #67594c; display: flex; justify-content: center; align-items: center;}
     .productSection > div:last-of-type > ul li.productActive{background-color: #efd6c0;}
     .productSection > div:last-of-type > ul li:not(:last-of-type){border-right: none;}
-    .productSection > div:last-of-type > ol li{list-style: none; display: none; padding: 50px 0; font-size: 12px; font-weight: 400; color: #766a5e; line-height: 18px; text-align: center; clear: both; /* border-bottom: 1px solid rgba(81, 72, 64, 0.5); */}
+    .productSection > div:last-of-type > ol li{list-style: none; display: none; padding: 50px 0; font-size: 12px; font-weight: 400; color: #766a5e; line-height: 18px; text-align: center; clear: both;}
     .productSection > div:last-of-type > ol li.productActive{display: block;}
     .productSection > div:last-of-type > ol li p:not(:last-of-type){margin-bottom: 25px;}
     /* productSection(상품상세페이지) Fin */
 
 
     
-    .aboutArea{/* margin: 50px 11.53% 0; */ text-align: center;}
-    /* .aboutArea > .asideArea{display: block;} */
+    .aboutArea{text-align: center;}
     .aboutArea h2{display: none; font-size: 30px; font-weight: 500; color: #67594c;}
     .aboutArea > ul{padding: 40px 0;}
     .aboutArea > ul li{word-break: keep-all;}
@@ -190,16 +166,16 @@
     .aboutArea > ul li > *:first-child{margin-bottom: 20px;}
     .aboutArea > ul li:first-of-type img{width: 80px; height: 75px; margin-bottom: 20px;}
     .aboutArea > ul li strong{font-size: 20px; font-weight: 600; color: #67594c; display: block;}
-    .aboutArea > ul li p{font-size: 13px; font-weight: 400; color: #67594c; line-height: 18px;/*  width: 650px; */ margin: 0 auto;}
+    .aboutArea > ul li p{font-size: 13px; font-weight: 400; color: #67594c; line-height: 18px; margin: 0 auto;}
     /* aboutArea(어바웃카테고리) Fin */
 
     
-    .videoArea,.videoSection{/* margin: 50px 11.53% 0;  */text-align: right;}
+    .videoArea,.videoSection{text-align: right;}
     .videoArea > h2{font-size: 16px; font-weight: 500; color: #67594c; margin-bottom: 10px;}
     .videoArea > ul{display: flex; flex-flow: row wrap; text-align: left; justify-content: space-between; margin-bottom: 60px;}
     .videoArea > ul li{float: left; width: 48.21%; margin-bottom: 20px;}
     .videoArea > ul li:not(:nth-of-type(2n)){margin-right: 3.57%;}
-    .videoArea > ul li figure > a{display: block; margin-bottom: 10px; /* width: 400px; height: 480px; */}
+    .videoArea > ul li figure > a{display: block; margin-bottom: 10px;}
     .videoArea > ul li figure a img{width: 100%;}
     .videoArea > ul li figure figcaption h3{word-break: break-all; font-size: 12px; line-height: 16px; font-weight: 500; color: #514840;}
     /* videoArea(비디오카테고리) Fin */
@@ -221,7 +197,7 @@
     /* videoSection(비디오상세페이지) Fin */
 
 
-    .loginArea{background-color: #67594c; width: 100%; height: 100vh; /* padding: 0 6.25%; */ display: flex; justify-content: center; align-items: center;}
+    .loginArea{background-color: #67594c; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center;}
     .loginArea > form{background-color: #fff; border: 1px solid #67594c; width: 87.5%; height: 355px; display: flex; justify-content: center; flex-direction: column; align-items: center;}
     .loginArea > form > h2{font-size: 20px; font-weight: 500; color: #514840; margin-bottom: 30px;}
     .loginArea > form ul{display: flex; justify-content: center; flex-wrap: wrap;}
@@ -264,7 +240,7 @@
 
 
     .onBasket{margin-bottom: 50px;}
-    .onBasket > div:first-of-type ul{display: flex; align-items: center; /* height: 40px;  */border-bottom: 1px solid rgba(81, 72, 64, 0.5);}
+    .onBasket > div:first-of-type ul{display: flex; align-items: center; border-bottom: 1px solid rgba(81, 72, 64, 0.5);}
     .onBasket > div:first-of-type ul li{font-size: 16px; font-weight: 500; color: #514840;}
     .onBasket > div:first-of-type ul li input[type='checkbox'], .onBasket > ul li div:first-of-type input[type='checkbox']{margin: 5px 10px; display: block; box-sizing: border-box; width: 13px; height: 13px; cursor: pointer; border: 1px solid #67594c; color: transparent;}
     .onBasket > div:first-of-type ul li:not(:first-of-type){display: none;}
@@ -273,10 +249,7 @@
     .onBasket > ul li div:nth-of-type(2), .onBasket > ul li div:nth-of-type(4){width: 20.60%;}
     .onBasket > ul li > p:first-of-type, .onBasket > ul li > p:last-of-type{width: 22.39%;}
     .onBasket > ul li > p:first-of-type{margin: 30px 2.74% 45px 0; height: 61px; display: flex; align-items: center; justify-content: flex-end;}
-    /* , .onBasket > ul li > span{width: 9.46%;} */
-    /* .onBasket > div:first-of-type ul li:nth-of-type(7), .onBasket > ul li > p:last-of-type{width: 8.23%;}
-    .onBasket > div:first-of-type ul li:last-of-type, .onBasket > ul li div:last-of-type{width: 9.76%;} */
-    .onBasket > ul li{/* display: flex; */ align-items: center;}
+    .onBasket > ul li{align-items: center;}
     .onBasket > ul li > div:first-of-type{float: left; display: flex; align-items: center;}
     .onBasket > ul li div:nth-of-type(2){float: left; margin: 0 2.74% 20px 0;}
     .onBasket > ul li div:nth-of-type(2) a{height: 203px; display: block;}
@@ -292,7 +265,7 @@
     .onBasket > ul li div:nth-of-type(4) > div span{box-sizing: border-box; display: block; cursor: pointer; width: 40px; height: 40px; background-repeat: no-repeat; background-position: center; background-size: 50%; border: 1px solid #d4d8d9;}
     .onBasket > ul li div:nth-of-type(4) > div span:first-of-type{margin-right: 4px; float: left; background-image: url(../image/Icon/plus_G.png);}
     .onBasket > ul li div:nth-of-type(4) > div span:last-of-type{float: left; background-image: url(../image/Icon/remove_G.png);}
-    .onBasket > ul li > div:last-of-type{clear: both; width: 100%; display: flex; /* flex-direction: column; */ /* align-items: center; */ justify-content: flex-end;}
+    .onBasket > ul li > div:last-of-type{clear: both; width: 100%; display: flex; justify-content: flex-end;}
     .onBasket > ul li > div:last-of-type input{appearance: none; background-color: #a2968b; width: 9.61%; height: 30px; border: none; font-size: 12px; font-weight: 500; color: #fff;}
     .onBasket > ul li > div:last-of-type input:hover{background-color: #efd6c0; cursor: pointer;}
     .onBasket > ul li > div:last-of-type input:not(:last-of-type){margin-right: 5px;}
@@ -351,13 +324,13 @@
     
 
     .mainEdition{position: relative; display: flex; background-color: #c4a994}
-    .mainEdition > div:first-of-type{width: 47.4%;/*  background-color: #c4a994; */ padding-left: 2.6%; /* background: url(../image/Editionpg/25.jpg) no-repeat center / 100%; */ display: flex; /* padding-left: 5.98%; */ color: #fff; flex-direction: column; justify-content: center;}
+    .mainEdition > div:first-of-type{width: 47.4%; padding-left: 2.6%; display: flex; color: #fff; flex-direction: column; justify-content: center;}
     .mainEdition > div:first-of-type h2{margin-left: 50px; display: flex; font-size: 40px; font-weight: 400; margin-bottom: 25px;}
     .mainEdition > div:first-of-type p{margin-left: 50px; font-size: 18px; font-weight: 400;}
     .mainEdition > div:last-of-type{width: 50%; display: flex; flex-direction: column; justify-content: center;}
-    .mainEdition > div:last-of-type a{width: 500px; height: 438px; /* margin: 8% 11.66% 25px; */ margin: 0 0 30px -136px;}
+    .mainEdition > div:last-of-type a{width: 500px; height: 438px; margin: 0 0 30px -136px;}
     .mainEdition > div:last-of-type a img{width: 100%;}
-    .mainEdition > div:last-of-type p{/* margin-left: 11.66%; */ text-align: right; margin-right: 20px;}
+    .mainEdition > div:last-of-type p{ text-align: right; margin-right: 20px;}
     .mainEdition > div:last-of-type p:first-of-type{font-size: 35px; font-weight: 400; color: #67594c; margin-bottom: 15px;}
     .mainEdition > div:last-of-type p:last-of-type{font-size: 25px; font-weight: 400; color: #fff2e2;}
     /* Edition(인덱스메인) Fin */
@@ -374,7 +347,6 @@
     .shopSlide > .shopPagination.swiper-pagination-fraction, .shopPagination.swiper-pagination-custom, .shopSlide.swiper-container-horizontal > .shopPagination.swiper-pagination-bullets{left: 0; bottom: 10px;}
     .shopSlide.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 8px 0 0;}
     .shopSlide.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:last-of-type{margin: 0;}
-    /* .shopPage img{width: 100%;} */
     .shopPage{background-size: cover; background-repeat: no-repeat; background-position: center; height: 369px;}
     .shopPage:first-of-type{background-image: url(../image/slider/1.jpg);}
     .shopPage:nth-of-type(2){background-image: url(../image/slider/2.jpg);}
@@ -384,7 +356,6 @@
 
 
     .shopSection > ul{display: flex; flex-flow: row wrap; margin-bottom: 60px;}
-    /* .shopSection > .shopProduct{padding-top: 50px;} */
     .shopSection > ul li{ flex: 1 0 32.41%;}
     .shopSection > ul li:not(:nth-of-type(n+10)){margin-bottom: 30px;}
     .shopSection > ul li:not(:nth-of-type(3n)){margin-right: 1.37%;}
@@ -410,10 +381,9 @@
     /* editionMenu(에디션카테고리 타이틀하단메뉴) Fin */
 
 
-    /* .productArea{padding-right: 20px;} */
     .productArea > div{display: flex;}
 
-    .productSection > div:first-of-type{/* display: flex; */ margin-bottom: 70px;}
+    .productSection > div:first-of-type{margin-bottom: 70px;}
     .productSection > div:first-of-type > div{width: 100%; height: 546px; margin-bottom: 15px;}
     .productSection > div:first-of-type > div img{width: 100%; height: 100%;}
     .productSection > div:first-of-type form > h2{margin-left: 4.12%; font-size: 24px; font-weight: 600; color: #766a5e; margin-bottom: 50px;}
@@ -428,14 +398,11 @@
     .productSection > div:first-of-type form > ul li:nth-of-type(n+3) select{font-size: 16px; font-weight: 500; color: #766a5e; width: 300px; height: 22px; border:0px solid transparent; appearance: none; background: url(../image/Icon/bottom_B.png) no-repeat center right; }
     .productSection > div:first-of-type form > ul li:not(:last-of-type){margin-bottom: 40px;}
     .productSection > div:first-of-type form > ul li:last-of-type{margin-bottom: 50px;}
-    .productSection > div:first-of-type form div.hidden{display: none; /*  flex-direction: column; flex-wrap: wrap; */}
+    .productSection > div:first-of-type form div.hidden{display: none;}
     .productSection > div:first-of-type form div.hidden.selectOn{display: flex; flex-wrap: wrap; flex-direction: column;}
-    .productSection > div:first-of-type form div.hidden ul{padding: 15px 30px; display: flex; align-content: space-between; 
-        border-width: 1px 0 1px 0; border-color: rgba(81, 72, 64, 0.4); border-style: solid;
-        flex-direction: column; flex-wrap: wrap; height: 110px;
-    }
+    .productSection > div:first-of-type form div.hidden ul{padding: 15px 30px; display: flex; align-content: space-between; border-width: 1px 0 1px 0; border-color: rgba(81, 72, 64, 0.4); border-style: solid; flex-direction: column; flex-wrap: wrap; height: 110px;}
     .productSection > div:first-of-type form div.hidden ul li{display: flex; align-items: center;}
-    .productSection > div:first-of-type form div.hidden ul li:first-of-type > p{/* font-size: 12px; */ font-size: 20px; font-weight: 400; color: #67594c; margin-bottom: 25px;}
+    .productSection > div:first-of-type form div.hidden ul li:first-of-type > p{font-size: 20px; font-weight: 400; color: #67594c; margin-bottom: 25px;}
     .productSection > div:first-of-type form div.hidden ul li:first-of-type span{display: block; font-weight: 500; margin-top: 5px;}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input{appearance: none; box-sizing: border-box;}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input[type='number']{margin-right: 6px; padding-left: 10px; font-size: 20px; font-weight: 400; color: #766a5e; width: 60px; height: 40px; border: 1px solid #d4d8d9; background-color: #fff;}
@@ -446,14 +413,14 @@
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) > div span:last-of-type{float: left; background-image: url(../image/Icon/remove_G.png);}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input[type='button']{display: none; position: absolute; right: 50px; top: 1093px; width: 15px; height: 15px; border: none; border-right: none; background: url(../image/Icon/btn_price_delete.gif) no-repeat center; text-indent: -9999px;}
     .productSection > div:first-of-type form div.hidden ul li:last-of-type{height: 142px; justify-self: self-end;}
-    .productSection > div:first-of-type form div.hidden ul li:last-of-type p{font-size: 20px; font-weight: 500; color: #67594c; /* margin-right: 35px; */}
+    .productSection > div:first-of-type form div.hidden ul li:last-of-type p{font-size: 20px; font-weight: 500; color: #67594c;}
     .productSection > div:first-of-type form div.hidden ul li:last-of-type p::after{content: '원';}
     .productSection > div:first-of-type form div.hidden > div{display: flex; justify-content: space-between; margin: 40px 0; padding: 0 4.12%; font-weight: 700; font-size: 20px;}
     .productSection > div:first-of-type form div.hidden > div > strong{flex-grow: 1;}
     .productSection > div:first-of-type form div.hidden > div > *:not(:nth-child(2)){ color: #514840;}
-    .productSection > div:first-of-type form div.hidden > div > p{color: #fa7c78; /* margin-right: 3px; */ font-size: 24px;}
+    .productSection > div:first-of-type form div.hidden > div > p{color: #fa7c78; font-size: 24px;}
     .productSection > div:first-of-type form div.hidden > div > p::after{content: '원';}
-    .productSection > div:first-of-type form div.hidden > div > span{/* font-size: 20px; */ font-weight: 700;}
+    .productSection > div:first-of-type form div.hidden > div > span{font-weight: 700;}
     .productSection > div:first-of-type form div.hidden > div > span::before{content: '(';}
     .productSection > div:first-of-type form div.hidden > div > span::after{content: '개)';}
     .productSection > div:first-of-type form div:last-of-type input{height: 60px; box-sizing: border-box; font-weight: 500; color: #514840;}
@@ -461,10 +428,7 @@
     .productSection > div:first-of-type form div:last-of-type > ul{display: flex; justify-content: space-between;}
     .productSection > div:first-of-type form div:last-of-type > ul li{width: 49.31%;}
     .productSection > div:first-of-type form div:last-of-type > ul li input{font-size: 18px; width: 100%; border: 1px solid #514840; background-color: #fff;}
-    /* .productSection > div:nth-of-type(2){width: 76.92%; margin: 0 auto 120px;} */
     .productSection > div:nth-of-type(2) img{width: 100%;}
-    /* .productSection > div:nth-of-type(n+3){width: 69.23%; margin: 0 auto 120px;} */
-    /* .productSection > div:nth-of-type(3){text-align: center;} */
     .productSection > div:nth-of-type(3) > div h3{margin-bottom: 15px; font-size: 20px; font-weight: 500; color: #67594c;}
     .productSection > div:nth-of-type(3) > div p{font-size: 14px; font-weight: 400; line-height: 18px; color: #766a5e; }
     .productSection > div:nth-of-type(3) > div:first-of-type div p span::before{content: ':'; padding-right: 3px;}
@@ -472,18 +436,8 @@
     .productSection > div:nth-of-type(3) > div:nth-of-type(2) label{display: none;}
     .productSection > div:nth-of-type(3) > div:nth-of-type(2) span{display: block;}
     .productSection > div:nth-of-type(3) > div:nth-of-type(2) > div:not(:last-of-type){margin-bottom: 10px;}
-    /* .productSection > div:nth-of-type(3) > div:last-of-type{margin-bottom: 50px; width: 66.66%; margin: 0 auto 20px; border-bottom: 1px solid rgba(81, 72, 64, 0.5);} */
     .productSection > div:nth-of-type(3) > div:last-of-type p{margin-bottom: 20px;}
     .productSection > div:nth-of-type(3) > p{font-size: 12px; font-weight: 400; line-height: 18px; color: #766a5e; margin-bottom: 50px;}
-    /* .productSection > div:last-of-type > ul{display: flex;} */
-    /* --.productSection > div:last-of-type > ul li{height: 50px;  width: 25%; height: 37px; border: 1px solid #514840; box-sizing: border-box; font-size: 20px; font-weight: 500; color: #67594c; display: flex; justify-content: space-between; align-items: center;} */
-    /* --.productSection > div:last-of-type > ul li::after{content: url(../image/Icon/left_B.png); transform: rotate(-90deg);} */
-    /* .productSection > div:last-of-type > ul li.productActive{background-color: #efd6c0;} */
-    /* .productSection > div:last-of-type > ul li:not(:last-of-type){border-right: none;} */
-    /* --.productSection > div:last-of-type > ol li{list-style: none; display: none; padding: 40px 0; font-size: 12px; font-weight: 400; color: #766a5e; line-height: 18px; text-align: center; clear: both; border-bottom: 1px solid rgba(81, 72, 64, 0.5);} */
-    /* .productSection > div:last-of-type > ol li.productActive{display: block;} */
-    /* --.productSection > div:last-of-type > ol li p:not(:last-of-type){margin-bottom: 25px;} */
-
     .productSection > div:last-of-type > ul{display: flex;}
     .productSection > div:last-of-type > ul li{ width: 25%; height: 42px; border: 1px solid #514840; box-sizing: border-box; font-size: 16px; font-weight: 500; color: #67594c; display: flex; justify-content: center; align-items: center;}
     .productSection > div:last-of-type > ul li.productActive{background-color: #efd6c0;}
@@ -495,8 +449,7 @@
 
 
     
-    .aboutArea{/* margin: 50px 11.53% 0; */ text-align: center;}
-    /* .aboutArea > .asideArea{display: block;} */
+    .aboutArea{text-align: center;}
     .aboutArea h2{display: none; font-size: 30px; font-weight: 500; color: #67594c;}
     .aboutArea > ul{padding: 70px 0;}
     .aboutArea > ul li{word-break: keep-all;}
@@ -508,13 +461,13 @@
     /* aboutArea(어바웃카테고리) Fin */
 
     
-    .videoArea,.videoSection{/* margin: 50px 11.53% 0;  */text-align: right;}
+    .videoArea,.videoSection{text-align: right;}
     .videoArea > h2{font-size: 30px; font-weight: 500; color: #67594c; margin-bottom: 40px;}
     .videoArea > ul{display: flex; flex-flow: row wrap; text-align: left; justify-content: space-between; margin-bottom: 60px;}
     .videoArea > ul li{flex: 1 0 32.41%;}
     .videoArea > ul li:not(:nth-of-type(3n)){margin-right: 1.3%;}
     .videoArea > ul li:not(:nth-of-type(n+10)){margin-bottom: 30px;}
-    .videoArea > ul li figure > a{display: block; margin-bottom: 10px; /* width: 400px; height: 480px; */}
+    .videoArea > ul li figure > a{display: block; margin-bottom: 10px;}
     .videoArea > ul li figure a img{width: 100%;}
     .videoArea > ul li figure figcaption h3{word-break: break-all; font-size: 18px; font-weight: 500; color: #514840;}
     /* videoArea(비디오카테고리) Fin */
@@ -530,7 +483,7 @@
     .videoSection > ul{display: flex; flex-flow: row wrap; text-align: left; justify-content: space-between;}
     .videoSection > ul li{flex: 1 0 32.41%;}
     .videoSection > ul li:not(:nth-of-type(3n)){margin-right: 1.3%;}
-    .videoSection > ul li figure > a{display: block; margin-bottom: 10px; /* width: 400px; height: 480px; */}
+    .videoSection > ul li figure > a{display: block; margin-bottom: 10px;}
     .videoSection > ul li figure a img{width: 100%;}
     .videoSection > ul li figure figcaption h3{word-break: break-all; font-size: 18px; font-weight: 500; color: #514840;}
     /* videoSection(비디오상세페이지) Fin */
@@ -577,7 +530,7 @@
 
 
     .onBasket{margin-bottom: 50px;}
-    .onBasket > div:first-of-type ul{display: flex; align-items: center; /* height: 40px;  */border-bottom: 1px solid rgba(81, 72, 64, 0.5);}
+    .onBasket > div:first-of-type ul{display: flex; align-items: center; border-bottom: 1px solid rgba(81, 72, 64, 0.5);}
     .onBasket > div:first-of-type ul li{font-size: 16px; font-weight: 500; color: #514840;}
     .onBasket > div:first-of-type ul li input[type='checkbox'], .onBasket > ul li div:first-of-type input[type='checkbox']{margin: 5px 10px; display: block; box-sizing: border-box; width: 13px; height: 13px; cursor: pointer; border: 1px solid #67594c; color: transparent;}
     .onBasket > div:first-of-type ul li:not(:first-of-type){display: none;}
@@ -586,10 +539,7 @@
     .onBasket > ul li div:nth-of-type(2), .onBasket > ul li div:nth-of-type(4){width: 20.60%;}
     .onBasket > ul li > p:first-of-type, .onBasket > ul li > p:last-of-type{width: 22.39%;}
     .onBasket > ul li > p:first-of-type{margin: 30px 2.74% 45px 0; height: 61px; display: flex; align-items: center; justify-content: flex-end;}
-    /* , .onBasket > ul li > span{width: 9.46%;} */
-    /* .onBasket > div:first-of-type ul li:nth-of-type(7), .onBasket > ul li > p:last-of-type{width: 8.23%;}
-    .onBasket > div:first-of-type ul li:last-of-type, .onBasket > ul li div:last-of-type{width: 9.76%;} */
-    .onBasket > ul li{/* display: flex; */ align-items: center;}
+    .onBasket > ul li{align-items: center;}
     .onBasket > ul li > div:first-of-type{float: left; display: flex; align-items: center;}
     .onBasket > ul li div:nth-of-type(2){float: left; margin: 0 2.74% 20px 0;}
     .onBasket > ul li div:nth-of-type(2) a{height: 203px; display: block;}
@@ -605,7 +555,7 @@
     .onBasket > ul li div:nth-of-type(4) > div span{box-sizing: border-box; display: block; cursor: pointer; width: 40px; height: 40px; background-repeat: no-repeat; background-position: center; background-size: 50%; border: 1px solid #d4d8d9;}
     .onBasket > ul li div:nth-of-type(4) > div span:first-of-type{margin-right: 4px; float: left; background-image: url(../image/Icon/plus_G.png);}
     .onBasket > ul li div:nth-of-type(4) > div span:last-of-type{float: left; background-image: url(../image/Icon/remove_G.png);}
-    .onBasket > ul li > div:last-of-type{clear: both; width: 100%; display: flex; /* flex-direction: column; */ /* align-items: center; */ justify-content: flex-end;}
+    .onBasket > ul li > div:last-of-type{clear: both; width: 100%; display: flex; justify-content: flex-end;}
     .onBasket > ul li > div:last-of-type input{appearance: none; background-color: #a2968b; width: 9.61%; height: 30px; border: none; font-size: 12px; font-weight: 500; color: #fff;}
     .onBasket > ul li > div:last-of-type input:hover{background-color: #efd6c0; cursor: pointer;}
     .onBasket > ul li > div:last-of-type input:not(:last-of-type){margin-right: 5px;}
@@ -743,7 +693,7 @@
     .productSection > div:first-of-type form div.hidden.selectOn{display: block;}
     .productSection > div:first-of-type form div.hidden ul{padding: 10px 10px; display: flex; justify-content: space-between; border-width: 1px 0 1px 0; border-color: rgba(81, 72, 64, 0.4); border-style: solid; }
     .productSection > div:first-of-type form div.hidden ul li{display: flex; align-items: center;}
-    .productSection > div:first-of-type form div.hidden ul li:first-of-type > p{/* font-size: 12px; */ font-size: 14px; font-weight: 400; color: #67594c;}
+    .productSection > div:first-of-type form div.hidden ul li:first-of-type > p{font-size: 14px; font-weight: 400; color: #67594c;}
     .productSection > div:first-of-type form div.hidden ul li:first-of-type span{display: block; font-weight: 500; margin-top: 10px;}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input{appearance: none; box-sizing: border-box;}
     .productSection > div:first-of-type form div.hidden ul li:nth-of-type(2) input[type='number']{font-size: 12px; font-weight: 400; color: #766a5e; width: 30px; height: 20px; border: 1px solid #d4d8d9; border-right: none; background-color: #fff;}
@@ -790,13 +740,6 @@
     .productSection > div:last-of-type > ol li{list-style: none; display: none; padding: 40px 0; font-size: 12px; font-weight: 400; color: #766a5e; line-height: 18px; text-align: center; clear: both; border-bottom: 1px solid rgba(81, 72, 64, 0.5);}
     .productSection > div:last-of-type > ol li.productActive{display: block;}
     .productSection > div:last-of-type > ol li p:not(:last-of-type){margin-bottom: 25px;}
-    /* .productSection > div:last-of-type > ul{display: flex; position: relative;}
-    .productSection > div:last-of-type > ul li{  color: #67594c; }
-    .productSection > div:last-of-type > ul li > strong{width: 25%; height: 37px; border: 1px solid #514840; box-sizing: border-box; font-size: 14px; font-weight: 500; display: flex; justify-content: center; align-items: center;}
-    .productSection > div:last-of-type > ul li > strong.productActive{background-color: #efd6c0;} */
-    /* .productSection > div:last-of-type > ul li:not(:last-of-type){border-right: none;} */
-    /* .productSection > div:last-of-type > ul li > div{display: none; position: absolute; top: 77px; left: 0; width: 100%;}
-    .productSection > div:last-of-type > ul li > div.productActive{display: block;} */
     /* productSection(상품상세페이지) Fin */
 
 

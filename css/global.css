@@ -12,22 +12,21 @@ input[type='checkbox']{display: none;}
 
 
 @media screen and (min-width: 320px) and (max-width: 767px){
-    .mainHeader{z-index: 10; position: fixed; margin: 0 20px; /* width: 94.8%; */ width: calc(100% - 40px); height: 60px; display: flex; align-items: center; justify-content: flex-end;}
+    .mainHeader{z-index: 10; position: fixed; margin: 0 20px; width: calc(100% - 40px); height: 60px; display: flex; align-items: center; justify-content: flex-end;}
     .mainHeader h1{position: absolute; left: 0; top: 10px;}
     .mainHeader h1 a{background: url(../image/3ce_logo.png) no-repeat center / 100%; width: 43px; height: 40px; display: block; transition-duration: 0.5s;}
     .mainHeader.on h1 a{background: url(../image/3ce_logo_B.png) no-repeat center / 100%; transition: background 0.5s;}
     .mainHeader nav{margin-right: 77px; background: url(../image/Icon/menu.png) no-repeat center / 100%; width: 17px; height: 12px; z-index: 10;}
     .mainHeader.on nav{background: url(../image/Icon/menu_B.png) no-repeat center / 100%;}
-    .mainHeader nav ul{/* display: flex; */ justify-content: center; flex-direction: column; justify-content: flex-end; display: none; /* margin-top: 30px;  */margin: 20px 0 0 -80px; width: 100px;/*  height: 120px; */}
-    .mainHeader.on nav ul{/* display: flex; */ justify-content: center; display: none;  /*  background: url(../image/Icon/menu_B.png) no-repeat center / 100%; */}
+    .mainHeader nav ul{justify-content: center; flex-direction: column; justify-content: flex-end; display: none; margin: 20px 0 0 -80px; width: 100px;}
+    .mainHeader.on nav ul{justify-content: center; display: none;}
     .mainHeader nav ul.active{display: flex;}
     .mainHeader.on nav ul.active{display: flex;}
-    .mainHeader nav ul li{flex-basis: 100%;  /* display: flex; align-items: center;  */background-color: rgba(130, 114, 99, 0.5);}
+    .mainHeader nav ul li{flex-basis: 100%; background-color: rgba(130, 114, 99, 0.5);}
     .mainHeader nav ul li:hover{background-color: rgba(239, 214, 192, 0.5);}
-    /* .mainHeader nav ul li:not(:last-of-type){margin-right: 15px;} */
     .mainHeader nav ul li a{margin-left: 15px; display: flex; align-items: center;  font-size: 16px; height: 40px; font-weight: 400; color: #fff; transition-duration: 0.5s;}
     .mainHeader > ul{position: absolute; right: 0; top: 15px; width: 86px; display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap;}
-    .mainHeader > ul li:first-of-type{/* width: 19px; height: 19px; */ margin-right: 20px;}
+    .mainHeader > ul li:first-of-type{margin-right: 20px;}
     .mainHeader > ul li:first-of-type a{background: url(../image/Icon/search.png) no-repeat center / 100%; width: 19px; height: 19px; display: block; transition-duration: 0.5s;}
     .mainHeader.on > ul li:first-of-type a{background: url(../image/Icon/search_B.png) no-repeat center / 100%; transition: background 0.5s;}
     .mainHeader > ul li:nth-of-type(2){width: 20px; height: 30px; display: flex; align-items: center;}
@@ -41,22 +40,18 @@ input[type='checkbox']{display: none;}
     .mainHeader.on > ul li:nth-of-type(n+3) a{color: #fff;}
     .mainHeader > ul li:nth-of-type(n+3).add{display: flex;}
     .mainHeader > ul li a{font-size: 16px; font-weight: 400; color: #fff; transition-duration: 0.5s;}
-    /* .mainHeader.on ul > li a{color: #67594c; transition: color 0.5s;} */
     /* mainHeader(인덱스,로그인 헤더) Fin */
 
 
-    .shopArea,.productArea{/* max-width: 280px; */ margin: 0 20px; position: relative;}
+    .shopArea,.productArea{margin: 0 20px; position: relative;}
     .subHeader{width: 100%; height: 60px; display: flex; align-items: center; justify-content: space-between;}
-    .subHeader h1{/* position: absolute; */ width: 43px; height: 40px;  /* left: 20px; top: 45px; */}
+    .subHeader h1{width: 43px; height: 40px;}
     .subHeader h1 a img{width: 100%;}
     .subHeader nav{display: none;}
-    /* .subHeader nav ul{display: flex; justify-content: center;}
-    .subHeader nav ul li:not(:last-of-type){margin-right: 50px;}
-    .subHeader nav ul li a{font-size: 25px; font-weight: 400; color: #67594c;} */
-    .subHeader > ul{/* position: absolute; right: 20px;  */display: flex; align-items: center;}
-    .subHeader > ul li:first-of-type{width: 12px; /* height: 22px; */}
-    .subHeader > ul li:nth-of-type(2){width: 19px; /* height: 19px; */}
-    .subHeader > ul li:nth-of-type(3){width: 17px; /* height: 14px; */}
+    .subHeader > ul{display: flex; align-items: center;}
+    .subHeader > ul li:first-of-type{width: 12px;}
+    .subHeader > ul li:nth-of-type(2){width: 19px;}
+    .subHeader > ul li:nth-of-type(3){width: 17px;}
     .subHeader > ul li:nth-of-type(n+4){display: none;}
     .subHeader > ul li a{display: flex; align-items: center;}
     .subHeader > ul li a img{width: 100%;}
@@ -64,16 +59,8 @@ input[type='checkbox']{display: none;}
     .subHeader > ul li a{font-size: 25px; font-weight: 400; color: #67594c;}
     /* subHeader(인덱스,로그인 제외 모든헤더) Fin */
 
-    
-    /* .loginHeader h1 a{background: url(../image/3ce_logo.png) no-repeat center / 100%;}
-    .loginHeader nav ul li a{color: fff;}
-    .loginHeader > ul li:first-of-type a{background: url(../image/Icon/search.png) no-repeat center / 100%;}
-    .loginHeader > ul li a{color: fff;} */
-    /* loginHeader(로그인 헤더) Fin */
 
-
-    /* .swiper-wrapper{z-index: 1;} */
-    .mainSlide.swiper-container{position: relative; width: calc(100% + 200px); /* z-index: 1; */ height: 318px; margin-left: -110px;}
+    .mainSlide.swiper-container{position: relative; width: calc(100% + 200px); height: 318px; margin-left: -110px;}
     .mainSlide .swiper-slide{z-index: 1; text-align: center; font-size: 18px; width: 220px; height: 293px; background-size: cover; background-position: center; background-repeat: no-repeat;}
     .mainSlide.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 5px 0 0;}
 
@@ -120,7 +107,7 @@ input[type='checkbox']{display: none;}
     .shopArea > div{display: flex;}
     .asideArea{display: none; text-align: left; position: absolute; z-index: 10; width: calc(100% + 40px); height: 100vh; background-color: #67594c; left: -20px; top: 0;}
     .asideArea.on{display: block;}
-    .asideArea nav{z-index: 99; width: 100%; height: 100%;  position: absolute; right: 0; /* background-color: #d99f9d; */ overflow-y: scroll;}
+    .asideArea nav{z-index: 99; width: 100%; height: 100%;  position: absolute; right: 0; overflow-y: scroll;}
     .asideArea nav > a{position: absolute; right: 25px; top: 20px; width: 20px; height: 20px;}
     .asideArea nav > a img{ width: 100%; transform: rotate(-45deg);}
     .asideArea nav > ul{padding: 25px 0 0 30px;}
@@ -151,18 +138,11 @@ input[type='checkbox']{display: none;}
 
 
     footer{margin-top: 50px; display: flex; flex-direction: column; align-items: flex-end; }
-    /* footer > div:not(:last-of-type){display: flex;} */
     footer > div:first-of-type{margin-bottom: 20px;}
     footer > div:first-of-type div h3{margin-bottom: 20px;}
     footer > div div h3, footer > div h3{font-size: 20px; font-weight: 600; color: #67594c; line-height: 24px;}
-    /* footer > div:first-of-type div label{display: none;} */
     footer > div:first-of-type div .material-icons{color: rgb(108, 91, 76); font-weight: 600; margin-left: 10px;}
-    /* footer > div:first-of-type > div:not(:first-of-type){margin-left: 110px;} */
     footer >  div:first-of-type div:nth-of-type(-n+3){display: none;}
-    /* footer > div:first-of-type div:nth-of-type(-n+3) h3{ text-align: center;}
-    footer > div:first-of-type div:nth-of-type(-n+3) ul li:not(:last-of-type){margin-bottom: 5px;}
-    footer > div:first-of-type div:nth-of-type(-n+3) ul li{text-align: center;}
-    footer > div:first-of-type div:nth-of-type(-n+3) ul li a{font-size: 14px; font-weight: 400; color: #67594c;} */
     footer > div:first-of-type div:nth-of-type(n+4){text-align: right; display: flex; flex-wrap: wrap; justify-content: flex-end;}
     footer > div:first-of-type div:nth-of-type(n+4) h3{float: left;}
     footer > div:first-of-type div:nth-of-type(n+4) label{width: 24px; height: 24px;}
@@ -170,7 +150,7 @@ input[type='checkbox']{display: none;}
     footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add:checked~address{height: 100px;}
     footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add~label{transform: rotate(0deg); transition-duration: 0.3s;}
     footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add:checked~label{transform: rotate(-45deg); transition-duration: 0.3s;}
-    footer > div:first-of-type div:nth-of-type(4) address{font-style: normal; /* display: block; */ width: 100%;}
+    footer > div:first-of-type div:nth-of-type(4) address{font-style: normal; width: 100%;}
     footer > div:first-of-type div:nth-of-type(4) address span:first-of-type{display: block; margin: 20px 0 15px; }
     footer > div:first-of-type div:nth-of-type(4) address span:first-of-type a{font-size: 20px; color: #67594c; font-weight: 400;}
     footer > div:first-of-type div:nth-of-type(4) address span:not(:first-of-type){font-size: 14px; color: #67594c; font-weight: 400;}
@@ -180,7 +160,7 @@ input[type='checkbox']{display: none;}
     footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01:checked~ul{height: 110px;}
     footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01~label{transform: rotate(0deg); transition-duration: 0.3s;}
     footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01:checked~label{transform: rotate(-45deg); transition-duration: 0.3s;}
-    footer > div:first-of-type div:nth-of-type(5) ul{/* display: block; */ width: 100%;}
+    footer > div:first-of-type div:nth-of-type(5) ul{width: 100%;}
     footer > div:first-of-type div:nth-of-type(5) ul li{color: #67594c; font-size: 12px; }
     footer > div:first-of-type div:nth-of-type(5) ul li:first-of-type{margin-bottom: 15px;}
     footer > div:first-of-type div:nth-of-type(5) ul li:first-of-type a{font-size: 14px; font-weight: 500; color: #67594c;}
@@ -189,12 +169,10 @@ input[type='checkbox']{display: none;}
     footer > ul{display: flex; margin-bottom: 20px;}
     footer > ul li{width: 20px; height: 20px;}
     footer > ul li:not(:first-of-type){margin-left: 15px;}
-    /* footer > ul li a{width: 100%;} */
     footer > ul li a img{width: 100%;}
     footer > div:last-of-type{margin-top: 20px; text-align: right; display: flex; flex-wrap: wrap; justify-content: flex-end;}
     footer > div:last-of-type h3{margin-bottom: 15px; width: 100%;}
     footer > div:last-of-type address{ line-height: 18px; margin-bottom: 15px; font-style: normal; display: flex; flex-wrap: wrap; justify-content: flex-end; width: 320px;}
-    /* footer > div:last-of-type address > *:nth-child(11){display: block;} */
     footer > div:last-of-type address, footer > div:last-of-type address a{font-size: 12px; font-weight: 400; color: #67594c;}
     footer > div:last-of-type address > a:first-of-type{margin-left: 5px;}
     footer > div:last-of-type address > *:not(:first-child)::before{content: '|'; margin: 0 5px; color: #67594c; font-size: 12px;}
@@ -212,7 +190,7 @@ input[type='checkbox']{display: none;}
 
 
 @media screen and (min-width: 768px) and (max-width: 1279px){
-    .mainHeader{z-index: 10; position: fixed; margin: 0 2.6%; /* width: 94.8%; */ width: calc(100% - 5.2%); height: 101px; display: flex; align-items: center; justify-content: center;}
+    .mainHeader{z-index: 10; position: fixed; margin: 0 2.6%; width: calc(100% - 5.2%); height: 101px; display: flex; align-items: center; justify-content: center;}
     .mainHeader h1{position: absolute; left: 0; top: 20px;}
     .mainHeader h1 a{background: url(../image/3ce_logo.png) no-repeat center / 100%; width: 65px; height: 61px; display: block; transition-duration: 0.5s;}
     .mainHeader.on h1 a{background: url(../image/3ce_logo_B.png) no-repeat center / 100%; transition: background 0.5s;}
@@ -220,7 +198,7 @@ input[type='checkbox']{display: none;}
     .mainHeader nav ul li:not(:last-of-type){margin-right: 20px;}
     .mainHeader nav ul li a{font-size: 20px; font-weight: 400; color: #fff; transition-duration: 0.5s;}
     .mainHeader > ul{position: absolute; right: 0; top: 38px; width: 86px; display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap;}
-    .mainHeader > ul li:first-of-type{/* width: 19px; height: 19px; */ margin-right: 20px;}
+    .mainHeader > ul li:first-of-type{margin-right: 20px;}
     .mainHeader > ul li:first-of-type a{background: url(../image/Icon/search.png) no-repeat center / 100%; width: 19px; height: 19px; display: block; transition-duration: 0.5s;}
     .mainHeader.on > ul li:first-of-type a{background: url(../image/Icon/search_B.png) no-repeat center / 100%; transition: background 0.5s;}
     .mainHeader > ul li:nth-of-type(2){width: 20px; height: 30px; display: flex; align-items: center;}
@@ -234,19 +212,17 @@ input[type='checkbox']{display: none;}
     .mainHeader.on > ul li:nth-of-type(n+3) a{color: #fff;}
     .mainHeader > ul li:nth-of-type(n+3).add{display: flex;}
     .mainHeader > ul li a{font-size: 20px; font-weight: 400; color: #fff; transition-duration: 0.5s;}
-    .mainHeader.on ul > li a{color: #67594c; /* transition: color 0.5s; */}
+    .mainHeader.on ul > li a{color: #67594c;}
     /* mainHeader(인덱스,로그인 헤더) Fin */
 
 
-    .shopArea,.productArea{max-width: 728px; margin: 0 auto; /* position: relative; */}
+    .shopArea,.productArea{max-width: 728px; margin: 0 auto;}
     .subHeader{width: 100%; height: 105px; display: flex; align-items: center; justify-content: space-between;}
-    .subHeader h1{/* position: absolute; */ width: 65px; height: 61px;  /* left: 20px; top: 45px; */}
+    .subHeader h1{width: 65px; height: 61px;}
     .subHeader h1 a img{width: 100%;}
     .subHeader nav{display: none;}
-    /* .subHeader nav ul{display: flex; justify-content: center;}
-    .subHeader nav ul li:not(:last-of-type){margin-right: 50px;}
-    .subHeader nav ul li a{font-size: 25px; font-weight: 400; color: #67594c;} */
-    .subHeader > ul{/* position: absolute; right: 20px;  */display: flex; align-items: center;}
+    
+    .subHeader > ul{display: flex; align-items: center;}
     .subHeader > ul li:first-of-type{width: 15px; height: 22px;}
     .subHeader > ul li:nth-of-type(2){width: 19px; height: 19px;}
     .subHeader > ul li:nth-of-type(3){width: 21px; height: 14px;}
@@ -258,15 +234,7 @@ input[type='checkbox']{display: none;}
     /* subHeader(인덱스,로그인 제외 모든헤더) Fin */
 
     
-    /* .loginHeader h1 a{background: url(../image/3ce_logo.png) no-repeat center / 100%;}
-    .loginHeader nav ul li a{color: fff;}
-    .loginHeader > ul li:first-of-type a{background: url(../image/Icon/search.png) no-repeat center / 100%;}
-    .loginHeader > ul li a{color: fff;} */
-    /* loginHeader(로그인 헤더) Fin */
-
-
-    /* .swiper-wrapper{z-index: 1;} */
-    .mainSlide.swiper-container{position: relative; width: calc(100% + 200px); /* z-index: 1; */ height: 430px; margin-left: -75px;}
+    .mainSlide.swiper-container{position: relative; width: calc(100% + 200px); height: 430px; margin-left: -75px;}
     .mainSlide .swiper-slide{z-index: 1; text-align: center; font-size: 18px; width: 300px; height: 400px; background-size: cover; background-position: center; background-repeat: no-repeat;}
     .mainSlide.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 5px 0 0;}
 
@@ -350,10 +318,6 @@ input[type='checkbox']{display: none;}
     footer > div:first-of-type div label{display: none;}
     footer > div:first-of-type > div:not(:first-of-type){margin-left: 110px;}
     footer >  div:first-of-type div:nth-of-type(-n+3){display: none;}
-    /* footer > div:first-of-type div:nth-of-type(-n+3) h3{ text-align: center;}
-    footer > div:first-of-type div:nth-of-type(-n+3) ul li:not(:last-of-type){margin-bottom: 5px;}
-    footer > div:first-of-type div:nth-of-type(-n+3) ul li{text-align: center;}
-    footer > div:first-of-type div:nth-of-type(-n+3) ul li a{font-size: 14px; font-weight: 400; color: #67594c;} */
     footer > div:first-of-type div:nth-of-type(n+4){text-align: right;}
     footer > div:first-of-type div:nth-of-type(4) address{font-style: normal; margin-top: 15px;}
     footer > div:first-of-type div:nth-of-type(4) address span:first-of-type{display: block; margin-bottom: 15px;}
@@ -372,7 +336,6 @@ input[type='checkbox']{display: none;}
     footer > div:last-of-type{text-align: right; display: flex; flex-wrap: wrap; justify-content: flex-end;}
     footer > div:last-of-type h3{margin-bottom: 15px;}
     footer > div:last-of-type address{line-height: 22px; margin-bottom: 15px; font-style: normal; display: flex; flex-wrap: wrap; justify-content: flex-end; width: 670px;}
-    /* footer > div:last-of-type address > *:nth-child(11){display: block;} */
     footer > div:last-of-type address, footer > div:last-of-type address a{font-size: 14px; font-weight: 400; color: #67594c;}
     footer > div:last-of-type address > a:first-of-type{margin-left: 5px;}
     footer > div:last-of-type address > *:not(:first-child)::before{content: '|'; margin: 0 5px; color: #67594c; font-size: 14px;}
@@ -435,7 +398,7 @@ input[type='checkbox']{display: none;}
 
 
     /* .swiper-wrapper{z-index: 1;} */
-    .mainSlide.swiper-container{position: relative; width: calc(100% + 200px); /* z-index: 1; */ height: 582px; margin-left: -200px;}
+    .mainSlide.swiper-container{position: relative; width: calc(100% + 200px); height: 582px; margin-left: -200px;}
     .mainSlide .swiper-slide{z-index: 1; text-align: center; font-size: 18px; width: 400px; height: 533px; background-size: cover; background-position: center; background-repeat: no-repeat;}
     .mainSlide.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 5px 0 0;}
 
@@ -534,7 +497,7 @@ input[type='checkbox']{display: none;}
     footer > ul li a{width: 100%;}
     footer > div:last-of-type{text-align: right;}
     footer > div:last-of-type h3{margin-bottom: 15px;}
-    footer > div:last-of-type address{line-height: 22px; /* margin-bottom: 40px; */ font-style: normal; display: flex; flex-wrap: wrap; justify-content: flex-end; width: 930px;}
+    footer > div:last-of-type address{line-height: 22px; font-style: normal; display: flex; flex-wrap: wrap; justify-content: flex-end; width: 930px;}
     footer > div:last-of-type address, footer > div:last-of-type address a{font-size: 14px; font-weight: 400; color: #67594c;}
     footer > div:last-of-type address > a:first-of-type{margin-left: 5px;}
     footer > div:last-of-type address > *:not(:first-of-type)::before{content: '|'; margin: 0 5px; color: #67594c; font-size: 14px;}
