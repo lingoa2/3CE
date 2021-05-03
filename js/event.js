@@ -46,10 +46,10 @@ function sd02(){
   var swiper = new Swiper('.swiper-container.shopSlide', {
     spaceBetween: 0,
     centeredSlides: true,
-    /* autoplay: {
+    autoplay: {
       delay: 2500,
       disableOnInteraction: false,
-    }, */
+    },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
