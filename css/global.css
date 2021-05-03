@@ -147,17 +147,17 @@ input[type='checkbox']{display: none;}
     footer > div:first-of-type div:nth-of-type(n+4) h3{float: left;}
     footer > div:first-of-type div:nth-of-type(n+4) label{width: 24px; height: 24px;}
     footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add~address{height: 0; overflow-y: hidden; transition-duration: 0.7s;}
-    footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add:checked~address{height: 100px;}
+    footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add:checked~address{height: 75px;}
     footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add~label{transform: rotate(0deg); transition-duration: 0.3s;}
     footer > div:first-of-type div:nth-of-type(4) input[type='checkbox']#ft_add:checked~label{transform: rotate(-45deg); transition-duration: 0.3s;}
     footer > div:first-of-type div:nth-of-type(4) address{font-style: normal; width: 100%;}
-    footer > div:first-of-type div:nth-of-type(4) address span:first-of-type{display: block; margin: 20px 0 15px; }
+    footer > div:first-of-type div:nth-of-type(4) address span:first-of-type{display: block; margin-bottom: 15px; }
     footer > div:first-of-type div:nth-of-type(4) address span:first-of-type a{font-size: 20px; color: #67594c; font-weight: 400;}
     footer > div:first-of-type div:nth-of-type(4) address span:not(:first-of-type){font-size: 14px; color: #67594c; font-weight: 400;}
     footer > div:first-of-type div:nth-of-type(4) address span:last-of-type{display: block; margin-top: 5px;}
     footer > div:first-of-type div:nth-of-type(5){margin-top: 20px;}
     footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01~ul{height: 0; overflow-y: hidden; transition-duration: 0.7s;}
-    footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01:checked~ul{height: 110px;}
+    footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01:checked~ul{height: 90px;}
     footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01~label{transform: rotate(0deg); transition-duration: 0.3s;}
     footer > div:first-of-type div:nth-of-type(5) input[type='checkbox']#ft_add_01:checked~label{transform: rotate(-45deg); transition-duration: 0.3s;}
     footer > div:first-of-type div:nth-of-type(5) ul{width: 100%;}
