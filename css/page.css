@@ -72,7 +72,7 @@
     .shopSection > ul li figure figcaption > div p{color: #67594c; margin-right: 10px; font-weight: 500;}
     .shopSection > ul li figure figcaption > div s + p::before{margin: 0 5px; content: '→';}
     .shopSection > ul li figure figcaption > div p::after{content: '원';}
-    .shopSection > ul li figure figcaption > div span{color: #fa7c78;}
+    .shopSection > ul li figure figcaption > div span{color: #fa7c78; line-height: 18px;}
     .shopSection > ul li figure figcaption > p{display: none;}
     /* shopSection(샵,에디션 카테고리) Fin */
 
@@ -215,79 +215,79 @@
 
     
     .cartSection{text-align: center;}
-    .cartSection h2{font-size: 24px; font-weight: 500; color: #67594c; margin-bottom: 30px; letter-spacing: 1px;}
+    .cartSection h2{font-size: 16px; font-weight: 500; color: #67594c; margin-bottom: 15px; letter-spacing: 1px;}
     
-    .offBasket{display: none; width: 100%; font-size: 16px; font-weight: 500; color: #67594c; flex-direction: column; align-content: center; letter-spacing: 1px;}
+    .offBasket{display: none; width: 100%; font-size: 13px; font-weight: 500; color: #67594c; flex-direction: column; align-content: center; letter-spacing: 1px;}
     .offBasket::after{content: ''; display: block; visibility: hidden; clear: both;}
     .offBasket.active{display: block;}
     .offBasket p{padding: 70px 0;}
-    .offBasket a{float: right; width: 150px; height: 50px; font-size: 14px; font-weight: 500; color: #67594c; border: 1px solid #67594c; background-color: rgba(239, 214, 192, 0.5); display: flex; align-items: center; justify-content: center;}
-    .cartSection > ul{text-align: left; padding-bottom: 30px;}
+    .offBasket a{/* float: right;  */margin: 0 auto; width: 110px; height: 40px; font-size: 14px; font-weight: 500; color: #67594c; border: 1px solid #67594c; background-color: rgba(239, 214, 192, 0.5); display: flex; align-items: center; justify-content: center;}
+    .cartSection > ul{text-align: left;}
     .cartSection > ul::after{content: ''; display: block; visibility: hidden; clear: both;}
-    .cartSection > ul li{float: left; width: 23.97%;}
-    .cartSection > ul li:not(:nth-of-type(4n)){padding-right: 1.37%;}
-    .cartSection > ul li:not(:nth-of-type(n+5)){margin-bottom: 30px;}
-    .cartSection > ul li figure > a{display: block; margin-bottom: 20px;}
+    .cartSection > ul li{float: left; width: 48.21%;}
+    .cartSection > ul li:not(:nth-of-type(2n)){padding-right: 3.57%;}
+    .cartSection > ul li:not(:nth-of-type(n+5)){margin-bottom: 20px;}
+    .cartSection > ul li figure > a{display: block; margin-bottom: 10px;}
     .cartSection > ul li figure a img{width: 100%;}
-    .cartSection > ul li figure figcaption a h3{font-size: 16px; font-weight: 500; color: #514840; margin-bottom: 20px; word-break: break-all;}
-    .cartSection > ul li figure figcaption a h3 span{font-size: 14px; font-weight: 500; color: #a2968b; display: block; margin-top: 7px;}
+    .cartSection > ul li figure figcaption a h3{font-size: 12px; font-weight: 500; color: #514840; margin-bottom: 15px; word-break: break-all;}
+    .cartSection > ul li figure figcaption a h3 span{font-size: 12px; font-weight: 500; color: #a2968b; display: block; margin-top: 10px;}
     .cartSection > ul li:nth-of-type(4) figure figcaption a h3 span{color: transparent;}
-    .cartSection > ul li figure figcaption > div{display: flex; font-size: 16px; font-weight: 500;}
+    .cartSection > ul li figure figcaption > div{display: flex; font-size: 12px; font-weight: 500;}
     .cartSection > ul li figure figcaption > div p{color: #514840; margin-right: 10px;}
     .cartSection > ul li figure figcaption > div p::after{content: '원';}
-    .cartSection > h3{font-size: 20px; font-weight: 500; color: #67594c; margin-bottom: 30px;}
+    .cartSection > h3{font-size: 14px; font-weight: 500; color: #67594c; margin-bottom: 30px;}
     /* cartSection(물건이 담기지 않은 카트) Fin */
 
 
-    .onBasket{margin-bottom: 50px;}
+    .onBasket{margin-bottom: 40px;}
     .onBasket > div:first-of-type ul{display: flex; align-items: center; border-bottom: 1px solid rgba(81, 72, 64, 0.5);}
     .onBasket > div:first-of-type ul li{font-size: 16px; font-weight: 500; color: #514840;}
-    .onBasket > div:first-of-type ul li input[type='checkbox'], .onBasket > ul li div:first-of-type input[type='checkbox']{margin: 5px 10px; display: block; box-sizing: border-box; width: 13px; height: 13px; cursor: pointer; border: 1px solid #67594c; color: transparent;}
+    .onBasket > div:first-of-type ul li input[type='checkbox'], .onBasket > ul li div:first-of-type input[type='checkbox']{display: none;}
     .onBasket > div:first-of-type ul li:not(:first-of-type){display: none;}
-    .onBasket > ul{padding: 20px 0;}
-    .onBasket > ul li > div:first-of-type{width: 4.53%; padding-top: 135px;}
-    .onBasket > ul li div:nth-of-type(2), .onBasket > ul li div:nth-of-type(4){width: 20.60%;}
-    .onBasket > ul li > p:first-of-type, .onBasket > ul li > p:last-of-type{width: 22.39%;}
-    .onBasket > ul li > p:first-of-type{margin: 30px 2.74% 45px 0; height: 61px; display: flex; align-items: center; justify-content: flex-end;}
+    .onBasket > ul{padding: 10px 0;}
+    .onBasket > ul li div:nth-of-type(2), .onBasket > ul li div:nth-of-type(4){width: 28.57%;}
+    .onBasket > ul li > p:first-of-type, .onBasket > ul li div:nth-of-type(3){width: 67.86%;}
+    .onBasket > ul li > p:first-of-type{text-align: left;}
     .onBasket > ul li{align-items: center;}
     .onBasket > ul li > div:first-of-type{float: left; display: flex; align-items: center;}
-    .onBasket > ul li div:nth-of-type(2){float: left; margin: 0 2.74% 20px 0;}
-    .onBasket > ul li div:nth-of-type(2) a{height: 203px; display: block;}
+    .onBasket > ul li div:nth-of-type(2){float: left; margin-right: 3.57%;}
+    .onBasket > ul li div:nth-of-type(2) a{display: block;}
     .onBasket > ul li div:nth-of-type(2) a img{width: 100%;}
-    .onBasket > ul li div:nth-of-type(3){float: left; text-align: left; width: 46.29%; margin: 30px 0 45px;}
-    .onBasket > ul li div:nth-of-type(3) strong{font-size: 16px; font-weight: 500; color: #514840; margin-bottom: 15px; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
-    .onBasket > ul li div:nth-of-type(3) > div{display: flex; align-items: center; width: 100%;}
-    .onBasket > ul li div:nth-of-type(3) > div p{font-size: 14px; font-weight: 400; color: #514840; margin-right: 15px;}
-    .onBasket > ul li div:nth-of-type(3) > div a{font-weight: 400; font-size: 12px; color: #67594c; width: 50px; height: 30px; border: 1px solid rgba(118, 106, 94, 0.5); background-color: transparent; display: flex; justify-content: center; align-items: center; box-sizing: border-box;}
-    .onBasket > ul li div:nth-of-type(4){width: 46.29%; float: left;  display: flex; justify-content: left;}
-    .onBasket > ul li div:nth-of-type(4) input[type='text']{padding-left: 10px; font-size: 20px; color: #766a5e; box-sizing: border-box; appearance: none; width: 60px; height: 40px; border: 1px solid #d4d8d9; margin-right: 6px;}
+    .onBasket > ul li div:nth-of-type(3){float: left; text-align: left;}
+    .onBasket > ul li div:nth-of-type(3) strong{font-size: 14px; font-weight: 500; color: #514840; margin-bottom: 15px; display: block;}
+    .onBasket > ul li div:nth-of-type(3) > div{align-items: center; width: 100%;}
+    .onBasket > ul li div:nth-of-type(3) > div p{font-size: 12px; font-weight: 400; color: #514840; margin: 0 15px 5px 0;}
+    .onBasket > ul li div:nth-of-type(3) > div a{margin-bottom: 15px; font-weight: 400; font-size: 12px; color: #67594c; width: 40px; height: 24px; border: 1px solid rgba(118, 106, 94, 0.5); background-color: transparent; display: flex; justify-content: center; align-items: center; box-sizing: border-box;}
+    .onBasket > ul li div:nth-of-type(4){width: 46.29%; float: left; clear: both; display: flex; justify-content: left; margin-top: 10px;}
+    .onBasket > ul li div:nth-of-type(4) input[type='text']{padding-left: 10px; font-size: 14px; color: #766a5e; box-sizing: border-box; appearance: none; width: 40px; height: 30px; border: 1px solid #d4d8d9; margin-right: 6px;}
     .onBasket > ul li div:nth-of-type(4) > div{ display: flex; justify-content: center;}
-    .onBasket > ul li div:nth-of-type(4) > div span{box-sizing: border-box; display: block; cursor: pointer; width: 40px; height: 40px; background-repeat: no-repeat; background-position: center; background-size: 50%; border: 1px solid #d4d8d9;}
+    .onBasket > ul li div:nth-of-type(4) > div span{box-sizing: border-box; display: block; cursor: pointer; width: 30px; height: 30px; background-repeat: no-repeat; background-position: center; background-size: 50%; border: 1px solid #d4d8d9;}
     .onBasket > ul li div:nth-of-type(4) > div span:first-of-type{margin-right: 4px; float: left; background-image: url(../image/Icon/plus_G.png);}
     .onBasket > ul li div:nth-of-type(4) > div span:last-of-type{float: left; background-image: url(../image/Icon/remove_G.png);}
     .onBasket > ul li > div:last-of-type{clear: both; width: 100%; display: flex; justify-content: flex-end;}
-    .onBasket > ul li > div:last-of-type input{appearance: none; background-color: #a2968b; width: 9.61%; height: 30px; border: none; font-size: 12px; font-weight: 500; color: #fff;}
+    .onBasket > ul li > div:last-of-type input{appearance: none; background-color: #a2968b; width: 21.42%; height: 26px; border: none; font-size: 12px; font-weight: 500; color: #fff;}
     .onBasket > ul li > div:last-of-type input:hover{background-color: #efd6c0; cursor: pointer;}
     .onBasket > ul li > div:last-of-type input:not(:last-of-type){margin-right: 5px;}
-    .onBasket > ul li > p{font-size: 14px; font-weight: 500; color: #514840; }
+    .onBasket > ul li > p{font-size: 13px; font-weight: 500; color: #514840; }
     .onBasket > ul li > p:first-of-type{float: left;}
-    .onBasket > ul li > p:last-of-type{color: #fa7c78; display: flex; height: 40px; align-items: center; justify-content: flex-end;}
-    .onBasket > ul li > p:last-of-type::before{content: '합계 : '; color: #514840;}
+    .onBasket > ul li > p:last-of-type{float: right; color: #fa7c78; display: flex; margin: 10px 0 15px; height: 30px; align-items: center; justify-content: flex-end;}
+    .onBasket > ul li > p:last-of-type::before{content: '합계 : '; color: #514840; padding-right: 5px;}
     .onBasket > ul li > p:after{content: '원'; color: #514840;}
-    .onBasket > div:nth-of-type(2){padding-right: 2.3%; margin-bottom: 30px; display: flex; justify-content: flex-end; align-items: center; height: 55px; border-width: 1px 0 1px 0; border-style: solid; border-color: rgba(81, 72, 64, 0.5);}
-    .onBasket > div:nth-of-type(2) p{font-size: 16px; font-weight: 500; color: #514840;}
+    .onBasket > div:nth-of-type(2){padding: 10px 0; margin-bottom: 30px; display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; height: 55px; border-width: 1px 0 1px 0; border-style: solid; border-color: rgba(81, 72, 64, 0.5);}
+    .onBasket > div:nth-of-type(2) p{font-size: 13px; font-weight: 500; color: #514840;}
     .onBasket > div:nth-of-type(2) p:nth-of-type(2)::before{content: '+'; padding: 0 5px;}
+    .onBasket > div:nth-of-type(2) p::after
     .onBasket > div:nth-of-type(2) strong{font-weight: 700;}
     .onBasket > div:nth-of-type(2) strong::before{content: ':'; padding-right: 5px;}
     .onBasket > div:nth-of-type(2) strong:after{content: '원';}
     .onBasket > div:nth-of-type(2) p:nth-of-type(3)::before{content: '='; padding: 0 5px;}
-    .onBasket > div:last-of-type{display: flex; justify-content: space-between; align-items: center;}
-    .onBasket > div:last-of-type{display: flex;}
-    .onBasket > div:last-of-type > div{display: flex;}
-    .onBasket > div:last-of-type > div a{cursor: pointer; display: flex; justify-content: center; align-items: center; width: 110px; height: 40px; border: 1px solid #67594c; background-color: #a2968b; box-sizing: border-box; font-size: 14px; font-weight: 500; color: #fff;}
-    .onBasket > div:last-of-type > div input{cursor: pointer; width: 110px; height: 40px; border: 1px solid #67594c; background-color: #a2968b; font-size: 14px; font-weight: 500; color: #fff;}
-    .onBasket > div:last-of-type > div > *:not(:last-child){margin-right: 5px;}
-    .onBasket > div:last-of-type > input{cursor: pointer; width: 150px; height: 50px; border: 1px solid #67594c; background-color: rgba(239, 214, 192, 0.5); font-size: 14px; font-weight: 500; color: #67594c;}
+    .onBasket > div:last-of-type{display: flex; justify-content: center; flex-wrap: wrap;}
+    .onBasket > div:last-of-type > div{display: flex; width: 75%; flex-wrap: wrap; justify-content: center; margin-bottom: 25px;}
+    .onBasket > div:last-of-type > div a{cursor: pointer; display: flex; justify-content: center; align-items: center; width: 35.71%; height: 35px; border: 1px solid #67594c; background-color: #a2968b; box-sizing: border-box; font-size: 12px; font-weight: 500; color: #fff;}
+    .onBasket > div:last-of-type > div input{cursor: pointer; width: 35.71%; height: 35px; border: 1px solid #67594c; background-color: #a2968b; font-size: 12px; font-weight: 500; color: #fff;}
+    .onBasket > div:last-of-type > div > *:nth-child(-n+2){margin-bottom: 5px;}
+    .onBasket > div:last-of-type > div > *:not(:nth-child(2n)){margin-right: 5px;}
+    .onBasket > div:last-of-type > input{cursor: pointer; width: 39.28%; height: 40px; border: 1px solid #67594c; background-color: rgba(239, 214, 192, 0.5); font-size: 12px; font-weight: 500; color: #67594c;}
 
 
 

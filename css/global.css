@@ -43,7 +43,7 @@ input[type='checkbox']{display: none;}
     /* mainHeader(인덱스,로그인 헤더) Fin */
 
 
-    .shopArea,.productArea{margin: 0 20px; position: relative;}
+    .shopArea, .productArea, .cartSection{margin: 0 20px; position: relative;}
     .subHeader{width: 100%; height: 60px; display: flex; align-items: center; justify-content: space-between;}
     .subHeader h1{width: 43px; height: 40px;}
     .subHeader h1 a img{width: 100%;}
